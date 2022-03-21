@@ -6,4 +6,4 @@ Python - 3.9.7
 numpy  - 1.20.3
 
 
-Functions take your a simple .txt file as an argument and return the result.
+Functions take a .txt file as an argument and return the result.
