@@ -2,6 +2,7 @@
 Code samples for Advent of Code 2021
 
 Python - 3.9.7
+
 numpy  - 1.20.3
 
 
