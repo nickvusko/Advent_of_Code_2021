@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def day_1_1(fh:str):
+def day_1_1(fh:str)->int:
     with open(f"{fh}.txt") as f:
         lines = f.readlines()
     np_array = np.asarray([int(x) for x in lines])
@@ -13,7 +13,7 @@ def day_1_1(fh:str):
             count+=1
     return count
 
-def day_1_2(fh:str):
+def day_1_2(fh:str)->int:
     with open(f"{fh}.txt") as f:
         lines = f.readlines()
     np_array = np.asarray([int(x) for x in lines])
